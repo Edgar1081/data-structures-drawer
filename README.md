@@ -74,3 +74,12 @@ Después ejecuta:
 ``` bash
 docker run --rm -i visualizador-svg < input.txt > example.svg
 ```
+
+## Ejemplos:
+
+### Grafica
+```
+docker run --rm -i java-svg-generator:latest < examples/input-graph.txt > examples/example-graph.svg
+
+```
+![Gráfica](examples/example-graph.svg)

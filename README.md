@@ -18,7 +18,7 @@ Este proyecto es una aplicación escrita en Java que genera representaciones gr�
 
 El programa espera dos líneas como entrada:
 
-1. **Nombre de la estructura** (por ejemplo: `LISTA`, `PILA`, etc.)
+1. **Nombre de la estructura** (por ejemplo: `Lista`, `Pila`, etc.)
 2. **Datos comparables** separados por espacios (números, letras o cadenas)
 
 Ejemplos válidos:
@@ -41,9 +41,9 @@ Grafica
 
 ---
 
-## 🐳 Uso con Docker
+##  Uso con Docker
 
-### ✅ Construcción de la imagen
+### Construcción de la imagen
 
 Asegúrate de tener Docker corriendo.
 

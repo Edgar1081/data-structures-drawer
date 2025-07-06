@@ -80,6 +80,16 @@ docker run --rm -i visualizador-svg < input.txt > example.svg
 ### Grafica
 ```
 docker run --rm -i java-svg-generator:latest < examples/input-graph.txt > examples/example-graph.svg
-
 ```
 ![Gráfica](examples/example-graph.svg)
+
+### ArbolRojinegro
+```
+docker run --rm -i java-svg-generator:latest < examples/input-brt.txt > examples/example-brt.svg
+```
+![ArbolRojinegro](examples/example-brt.svg)
+### ArbolAVL
+```
+docker run --rm -i java-svg-generator:latest < examples/input-avl.txt > examples/example-avl.svg
+```
+![ArbolAVL](examples/example-avl.svg)
